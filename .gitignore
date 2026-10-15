@@ -1,0 +1,58 @@
+# =========================
+# Java / Spring Boot
+# =========================
+backend/target/
+backend/.idea/
+backend/*.iml
+
+# =========================
+# React / Vite
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# =========================
+# Environment files
+# =========================
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Keep examples if you create them
+!backend/.env.example
+!frontend/.env.example
+
+# =========================
+# IntelliJ / IDE
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.swp
